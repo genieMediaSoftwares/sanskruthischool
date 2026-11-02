@@ -352,18 +352,18 @@ export const NEWS_AND_CIRCULARS: NewsNotice[] = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  { id: "g-1", title: "10-Acre Verdant Bonangi Campus", category: "campus", caption: "Lush green panoramic view of academic blocks framed by Visakhapatnam hills.", aspectRatio: "16:9" },
-  { id: "g-2", title: "Equestrian Academy in Action", category: "sports", caption: "Students practicing dressage and show jumping on the sand riding manege.", aspectRatio: "4:3" },
-  { id: "g-3", title: "Semi-Olympic Swimming Arena", category: "sports", caption: "Clean 25-metre pool with lane dividers under professional lifeguard supervision.", aspectRatio: "4:3" },
-  { id: "g-4", title: "THINKEDGE STEM & Robotics Lab", category: "academics", caption: "Young innovators coding micro-controllers and assembling robotics prototypes.", aspectRatio: "4:3" },
-  { id: "g-5", title: "Archery Range Target Practice", category: "sports", caption: "Precision training with Olympic recurve bows under national coaches.", aspectRatio: "4:3" },
-  { id: "g-6", title: "Rifle Shooting Range", category: "sports", caption: "Indoor 10m target range focusing on breath regulation and laser-sharp focus.", aspectRatio: "4:3" },
-  { id: "g-7", title: "Smart Digital Classrooms", category: "academics", caption: "Educomp SmartClass 3D interactive learning modules in session.", aspectRatio: "4:3" },
-  { id: "g-8", title: "Organic Farming & Nature Study", category: "cultural", caption: "Hands-on student engagement with organic vegetable cultivation and vermicomposting.", aspectRatio: "4:3" },
-  { id: "g-9", title: "Joyful Kindergarten Sensory Room", category: "kindergarten", caption: "Creative play, phonics circle, and sensory motor learning for young minds.", aspectRatio: "4:3" },
-  { id: "g-10", title: "Peaceful Residential Hostels", category: "residential", caption: "Airy, hygienic dormitories and serene reading areas for residential scholars.", aspectRatio: "4:3" },
-  { id: "g-11", title: "NCC Ceremonial Parade", category: "sports", caption: "Naval, Army, and Air Force cadet wings during ceremonial drill presentation.", aspectRatio: "16:9" },
-  { id: "g-12", title: "SGS Musical Performers Live", category: "cultural", caption: "School band and orchestra performing classical and contemporary harmony.", aspectRatio: "4:3" }
+  { id: "g-1", title: "10-Acre Verdant Bonangi Campus", category: "campus", caption: "Lush green panoramic view of academic blocks framed by Visakhapatnam hills.", aspectRatio: "16:9", imageUrl: "/images/Slider_20230727040104AM_20220709_140451.jpg" },
+  { id: "g-2", title: "Equestrian Academy in Action", category: "sports", caption: "Students practicing dressage and show jumping on the sand riding manege.", aspectRatio: "4:3", imageUrl: "/images/Slider_20240202051058AM_IMG_2746.JPG" },
+  { id: "g-3", title: "Semi-Olympic Swimming Arena", category: "sports", caption: "Clean 25-metre pool with lane dividers under professional lifeguard supervision.", aspectRatio: "4:3", imageUrl: "/images/Slider_20240202050958AM_SIRI8425.JPG" },
+  { id: "g-4", title: "THINKEDGE STEM & Robotics Lab", category: "academics", caption: "Young innovators coding micro-controllers and assembling robotics prototypes.", aspectRatio: "4:3", imageUrl: "/images/Slider_20240202051204AM_SIRI8431.JPG" },
+  { id: "g-5", title: "Archery Range Target Practice", category: "sports", caption: "Precision training with Olympic recurve bows under national coaches.", aspectRatio: "4:3", imageUrl: "/images/slider-3.jpg" },
+  { id: "g-6", title: "Rifle Shooting Range", category: "sports", caption: "Indoor 10m target range focusing on breath regulation and laser-sharp focus.", aspectRatio: "4:3", imageUrl: "/images/slider-3.jpg" },
+  { id: "g-7", title: "Smart Digital Classrooms", category: "academics", caption: "Educomp SmartClass 3D interactive learning modules in session.", aspectRatio: "4:3", imageUrl: "/images/Slider_20240202051204AM_SIRI8431.JPG" },
+  { id: "g-8", title: "Organic Farming & Nature Study", category: "cultural", caption: "Hands-on student engagement with organic vegetable cultivation and vermicomposting.", aspectRatio: "4:3", imageUrl: "/images/slider-7.jpg" },
+  { id: "g-9", title: "Joyful Kindergarten Sensory Room", category: "kindergarten", caption: "Creative play, phonics circle, and sensory motor learning for young minds.", aspectRatio: "4:3", imageUrl: "/images/A_20260114061238PM_IMG20260108101629.jpg" },
+  { id: "g-10", title: "Peaceful Residential Hostels", category: "residential", caption: "Airy, hygienic dormitories and serene reading areas for residential scholars.", aspectRatio: "4:3", imageUrl: "/images/slider-7.jpg" },
+  { id: "g-11", title: "NCC Ceremonial Parade & Events", category: "sports", caption: "Naval, Army, and Air Force cadet wings during ceremonial drill presentation.", aspectRatio: "16:9", imageUrl: "/images/Slider_20251227065326AM_IMG-20251227-WA0006.jpg" },
+  { id: "g-12", title: "SGS Musical Performers Live", category: "cultural", caption: "School band and orchestra performing classical and contemporary harmony.", aspectRatio: "4:3", imageUrl: "/images/slider-8.jpg" }
 ];
 
 export const MANDATORY_DISCLOSURE_DOCS: DisclosureDoc[] = [

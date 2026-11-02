@@ -40,23 +40,23 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         {/* Full-Bleed Panoramic Architectural Campus Background */}
         <HeroBackground />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 relative z-10 w-full flex-1 flex flex-col justify-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 relative z-20 w-full flex-1 flex flex-col justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Left Content Column */}
             <div className="lg:col-span-7 space-y-6">
               {/* Trust Badge */}
-              <div className="inline-flex items-center gap-2 text-xs font-bold text-[#EAC775] tracking-wider uppercase bg-white/10 backdrop-blur-md border border-white/20 px-3.5 py-1.5 rounded-full shadow-sm">
-                <ShieldCheck className="w-4 h-4 text-[#D4AF37]" />
+              <div className="inline-flex items-center gap-2 text-xs font-bold text-[#F3E2B8] tracking-wider uppercase bg-black/40 backdrop-blur-md border border-[#D4AF37]/40 px-3.5 py-1.5 rounded-full shadow-lg">
+                <ShieldCheck className="w-4 h-4 text-[#EAC775]" />
                 <span>CBSE Affiliated No. 130302/2013 · Visakhapatnam</span>
               </div>
 
               {/* Main Headline */}
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white tracking-tight leading-[1.1] text-balance drop-shadow-md">
-                Where Young Minds Discover Their <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#EAC775] via-[#D4AF37] to-amber-200">Extraordinary Potential.</span>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white tracking-tight leading-[1.1] text-balance drop-shadow-xl">
+                Where Young Minds Discover Their <span className="text-[#EAC775] drop-shadow-lg">Extraordinary Potential.</span>
               </h1>
 
               {/* Supporting Text */}
-              <p className="text-sm sm:text-base md:text-lg text-slate-200 max-w-2xl leading-relaxed drop-shadow">
+              <p className="text-base sm:text-lg text-slate-100 max-w-2xl leading-relaxed drop-shadow font-normal">
                 An inspiring environment where academic discipline, Indian cultural values, and holistic development come together to prepare students for a changing world. A scenic 10-acre residential and day boarding sanctuary at Bonangi, Visakhapatnam.
               </p>
 
@@ -64,7 +64,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               <div className="flex flex-wrap items-center gap-4 pt-2">
                 <button
                   onClick={() => onNavigate('admissions', 'enquiry-form')}
-                  className="px-6 py-3.5 rounded-lg bg-[#D01C24] text-white hover:bg-[#A8141B] font-bold text-xs uppercase tracking-wider transition-all shadow-xl flex items-center gap-2 border border-[#D4AF37]/50 cursor-pointer"
+                  className="px-6 py-3.5 rounded-lg bg-[#D01C24] text-white hover:bg-[#B3151D] font-bold text-xs uppercase tracking-wider transition-all shadow-2xl flex items-center gap-2 border border-[#EAC775]/50 cursor-pointer hover:shadow-red-900/50"
                 >
                   <Sparkles className="w-4 h-4 text-[#EAC775]" />
                   <span>Admissions 2026–27 Open</span>
@@ -73,34 +73,34 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
 
                 <button
                   onClick={() => onNavigate('about')}
-                  className="px-6 py-3.5 rounded-lg bg-white/15 backdrop-blur-md text-white hover:bg-white/25 font-bold text-xs uppercase tracking-wider transition-all border border-white/30 flex items-center gap-2 cursor-pointer shadow-md"
+                  className="px-6 py-3.5 rounded-lg bg-black/40 backdrop-blur-md text-white hover:bg-black/60 font-bold text-xs uppercase tracking-wider transition-all border border-white/40 flex items-center gap-2 cursor-pointer shadow-lg"
                 >
                   <span>Explore Our School</span>
                 </button>
               </div>
 
               {/* Highlights Micro-list */}
-              <div className="pt-4 border-t border-white/15 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-slate-200">
-                <span className="flex items-center gap-1.5 font-medium">
-                  <Check className="w-3.5 h-3.5 text-[#D4AF37]" /> Horse Riding & Archery Academies
+              <div className="pt-4 border-t border-white/20 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-white">
+                <span className="flex items-center gap-1.5 font-semibold drop-shadow">
+                  <Check className="w-4 h-4 text-[#EAC775]" /> Horse Riding & Archery Academies
                 </span>
-                <span className="flex items-center gap-1.5 font-medium">
-                  <Check className="w-3.5 h-3.5 text-[#D4AF37]" /> IIT-JEE & NEET Foundation
+                <span className="flex items-center gap-1.5 font-semibold drop-shadow">
+                  <Check className="w-4 h-4 text-[#EAC775]" /> IIT-JEE & NEET Foundation
                 </span>
-                <span className="flex items-center gap-1.5 font-medium">
-                  <Check className="w-3.5 h-3.5 text-[#D4AF37]" /> 100% CBSE Board Pass Record
+                <span className="flex items-center gap-1.5 font-semibold drop-shadow">
+                  <Check className="w-4 h-4 text-[#EAC775]" /> 100% CBSE Board Pass Record
                 </span>
               </div>
             </div>
 
             {/* Right Visual Column: Featured Campus View Card */}
             <div className="lg:col-span-5">
-              <div className="relative rounded-2xl p-2.5 bg-white/10 backdrop-blur-md border border-white/25 shadow-2xl">
+              <div className="relative rounded-2xl p-2.5 bg-black/40 backdrop-blur-md border border-[#D4AF37]/40 shadow-2xl">
                 <CampusImage
                   type="campus"
                   alt="Sanskruthi Global School 10-Acre Campus View"
                   aspectRatio="4:3"
-                  className="w-full h-full shadow-lg"
+                  className="w-full h-full shadow-lg rounded-xl overflow-hidden"
                 />
 
                 {/* Floating Stat Overlay */}
@@ -122,53 +122,53 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           </div>
 
           {/* Quick Campus Spotlight Cards Strip (Below Split) */}
-          <div className="mt-12 pt-8 border-t border-white/15 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+          <div className="mt-12 pt-8 border-t border-white/20 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
             <button
               onClick={() => onNavigate('campus')}
-              className="p-3 sm:p-3.5 rounded-xl bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-left transition-all cursor-pointer group"
+              className="p-3.5 sm:p-4 rounded-xl bg-black/40 hover:bg-black/60 backdrop-blur-md border border-white/25 text-left transition-all cursor-pointer group shadow-lg"
             >
               <div className="text-[10px] font-bold uppercase tracking-wider text-[#EAC775] mb-0.5">Campus Life</div>
               <div className="text-xs sm:text-sm font-bold text-white group-hover:text-[#EAC775] flex items-center justify-between">
                 <span>10-Acre Setting</span>
-                <ChevronRight className="w-3.5 h-3.5 text-[#D4AF37] group-hover:translate-x-0.5 transition-transform" />
+                <ChevronRight className="w-3.5 h-3.5 text-[#EAC775] group-hover:translate-x-0.5 transition-transform" />
               </div>
-              <p className="text-[11px] text-slate-300 mt-0.5 line-clamp-1">Tranquil hills & clean air</p>
+              <p className="text-[11px] text-slate-200 mt-0.5 line-clamp-1 font-medium">Tranquil hills & clean air</p>
             </button>
 
             <button
               onClick={() => onNavigate('sports-and-activities', 'horse-riding')}
-              className="p-3 sm:p-3.5 rounded-xl bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-left transition-all cursor-pointer group"
+              className="p-3.5 sm:p-4 rounded-xl bg-black/40 hover:bg-black/60 backdrop-blur-md border border-white/25 text-left transition-all cursor-pointer group shadow-lg"
             >
               <div className="text-[10px] font-bold uppercase tracking-wider text-[#EAC775] mb-0.5">Equestrian</div>
               <div className="text-xs sm:text-sm font-bold text-white group-hover:text-[#EAC775] flex items-center justify-between">
                 <span>Horse Riding Academy</span>
-                <ChevronRight className="w-3.5 h-3.5 text-[#D4AF37] group-hover:translate-x-0.5 transition-transform" />
+                <ChevronRight className="w-3.5 h-3.5 text-[#EAC775] group-hover:translate-x-0.5 transition-transform" />
               </div>
-              <p className="text-[11px] text-slate-300 mt-0.5 line-clamp-1">Dedicated sand manege</p>
+              <p className="text-[11px] text-slate-200 mt-0.5 line-clamp-1 font-medium">Dedicated sand manege</p>
             </button>
 
             <button
               onClick={() => onNavigate('sports-and-activities', 'swimming')}
-              className="p-3 sm:p-3.5 rounded-xl bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-left transition-all cursor-pointer group"
+              className="p-3.5 sm:p-4 rounded-xl bg-black/40 hover:bg-black/60 backdrop-blur-md border border-white/25 text-left transition-all cursor-pointer group shadow-lg"
             >
               <div className="text-[10px] font-bold uppercase tracking-wider text-[#EAC775] mb-0.5">Aquatics</div>
               <div className="text-xs sm:text-sm font-bold text-white group-hover:text-[#EAC775] flex items-center justify-between">
                 <span>Semi-Olympic Pool</span>
-                <ChevronRight className="w-3.5 h-3.5 text-[#D4AF37] group-hover:translate-x-0.5 transition-transform" />
+                <ChevronRight className="w-3.5 h-3.5 text-[#EAC775] group-hover:translate-x-0.5 transition-transform" />
               </div>
-              <p className="text-[11px] text-slate-300 mt-0.5 line-clamp-1">6 lanes & certified coaches</p>
+              <p className="text-[11px] text-slate-200 mt-0.5 line-clamp-1 font-medium">6 lanes & certified coaches</p>
             </button>
 
             <button
               onClick={() => onNavigate('academics', 'digital-classrooms')}
-              className="p-3 sm:p-3.5 rounded-xl bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-left transition-all cursor-pointer group"
+              className="p-3.5 sm:p-4 rounded-xl bg-black/40 hover:bg-black/60 backdrop-blur-md border border-white/25 text-left transition-all cursor-pointer group shadow-lg"
             >
               <div className="text-[10px] font-bold uppercase tracking-wider text-[#EAC775] mb-0.5">Innovation</div>
               <div className="text-xs sm:text-sm font-bold text-white group-hover:text-[#EAC775] flex items-center justify-between">
                 <span>THINKEDGE STEM Lab</span>
-                <ChevronRight className="w-3.5 h-3.5 text-[#D4AF37] group-hover:translate-x-0.5 transition-transform" />
+                <ChevronRight className="w-3.5 h-3.5 text-[#EAC775] group-hover:translate-x-0.5 transition-transform" />
               </div>
-              <p className="text-[11px] text-slate-300 mt-0.5 line-clamp-1">Robotics & micro-controllers</p>
+              <p className="text-[11px] text-slate-200 mt-0.5 line-clamp-1 font-medium">Robotics & micro-controllers</p>
             </button>
           </div>
         </div>
@@ -756,6 +756,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                     alt={item.title}
                     aspectRatio="4:3"
                     showBadge={false}
+                    customSrc={item.imageUrl}
                     className="w-full h-full"
                   />
                   {/* Subtle hover overlay */}

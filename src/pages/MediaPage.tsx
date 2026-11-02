@@ -99,6 +99,7 @@ export const MediaPage: React.FC<MediaPageProps> = ({ onNavigate, subSection }) 
                     alt={item.title}
                     aspectRatio="4:3"
                     showBadge={false}
+                    customSrc={item.imageUrl}
                     className="w-full h-full"
                   />
                   <div className="absolute inset-0 bg-[#0B2514]/35 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-3 text-center">

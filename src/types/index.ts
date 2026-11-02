@@ -89,6 +89,7 @@ export interface GalleryItem {
   category: 'campus' | 'academics' | 'sports' | 'cultural' | 'kindergarten' | 'residential';
   caption: string;
   aspectRatio?: '16:9' | '4:3' | '1:1';
+  imageUrl?: string;
 }
 
 export interface DisclosureDoc {
