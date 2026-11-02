@@ -1,0 +1,6 @@
+{
+  "name": "Sanskruthi Global School",
+  "description": "Official website of Sanskruthi Global School, Bonangi, Visakhapatnam. CBSE Affiliated Residential & Day Boarding School fostering academic excellence, character, sports, and holistic development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
